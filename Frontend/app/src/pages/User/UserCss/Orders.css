@@ -1,0 +1,16 @@
+/* Orders sayfası düzeni */
+.Orders-layout {
+    min-height: 100vh;
+    background: #f0f2f5;
+  }
+  
+  /* Siparişlerim içeriği */
+  .orders-content {
+    padding: 20px;
+  }
+  
+  /* Sipariş Tablosu */
+  .order-table {
+    margin-top: 20px;
+  }
+  

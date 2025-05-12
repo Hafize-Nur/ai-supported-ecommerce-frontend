@@ -1,0 +1,24 @@
+.urun-ekle-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+ 
+  }
+  
+  .urun-ekle-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-category,
+  .form-product {
+    margin-top: 20px;
+  }
+  
+  .upload-image {
+    margin-top: 20px;
+  }
+  

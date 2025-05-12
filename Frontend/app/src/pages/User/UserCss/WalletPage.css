@@ -1,0 +1,88 @@
+.wallet-content {
+    margin-top: 50px;
+    padding: 40px;
+  
+  }
+  
+  .credit-card {
+    background: linear-gradient(135deg, #403e48, #928dab);
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+    min-height: 220px;
+    transition: transform 0.3s ease;
+  }
+  
+  .credit-card:hover {
+    transform: scale(1.02);
+  }
+  
+  
+  .card-chip {
+    width: 50px;
+    height: 35px;
+    background-color: #dcdcdc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card-type {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .card-balance {
+    margin-top: 10px;
+  }
+  
+  .card-holder {
+    margin-top: 20px;
+  }
+  
+  .bakiyebuton{
+    background-color:#5e5b6f ;
+    border-color: #403e48;
+  }
+.bakiyebuton:hover{
+  background-color: #928dab !important;
+}
+  .wallet-main-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 32px;
+    padding: 24px;
+    flex-wrap: wrap;
+  }
+  
+  .wallet-left-panel {
+    margin-top: 15px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .wallet-right-panel {
+    width: 400px;
+    max-height: 100vh;
+    overflow-y: auto;
+    background-color: #fafafa;
+    padding: 16px;
+    border-left: 1px solid #eee;
+    margin-top: 0px;
+
+  }
+
+
+
+  
+  

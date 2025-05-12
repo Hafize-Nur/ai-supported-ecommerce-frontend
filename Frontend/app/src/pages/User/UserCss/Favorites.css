@@ -1,0 +1,18 @@
+.favorites-layout {
+    min-height: 100vh;
+  }
+
+  .favorites-page {
+    padding: 20px;
+    text-align: center;
+    height: auto;
+  }
+  
+  .favorites-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .favorites-page .ant-card {
+    margin-top: 10px;
+  }

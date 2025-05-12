@@ -1,0 +1,32 @@
+.form-container {
+    max-width: 600px;
+    margin-top: 8%;
+    margin-left: 25%;
+  }
+  
+  .form-label {
+    text-align: left;
+  }
+  
+  .form-input {
+    width: 100%;
+  }
+  
+  .captcha-container {
+    display: flex;
+  }
+  
+  .captcha-input {
+    width: 100%;
+  }
+  
+  .captcha-button {
+    margin-left: 10px;
+  }
+  
+  .submit-button {
+    text-align: center;
+  }
+  .KayitButon{
+    width:100%;
+  }

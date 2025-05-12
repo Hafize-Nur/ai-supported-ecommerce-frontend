@@ -1,0 +1,118 @@
+.ProductCard {
+  /* height: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; */
+  width: 230px; 
+  height: auto; ;
+  margin: 15px; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+@media (max-width: 768px) {
+  .ProductCard {
+      width: 100%; /* Make cards full-width on smaller screens */
+  }
+}
+.ProductCard:hover{
+  background-color:  rgb(201, 196, 196);
+  transform: scale(1.05); /* Kartın üzerine gelindiğinde büyütür */
+ }
+
+ 
+ .image-container {
+  width: 100%;
+  height: 100%; /* Resmin yüksekliğini ayarlayın */
+  overflow: hidden;
+  position: relative;
+}
+
+ .image{
+  width: 100%;
+  height: 180px;
+  object-fit: contain; 
+ }
+
+ .product-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  height: 40px; /* Limit height to handle long titles */
+  overflow: hidden;
+}
+.product-price {
+  font-size: 18px;
+  color:black; /* Use a bright color to highlight price */
+  font-weight: bold;
+}
+.product-info {
+  font-size: 12px; /* Smaller font for details */
+  color: #666; /* Light gray for less prominent info */
+}
+
+.product-info.available{
+  color:green;
+}
+
+.product-info.unavailable{
+  color: red;
+  font-weight: bold;
+}
+
+.product-buttons Button {
+  font-size: 14px; 
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #fd702d; /* Use brand colors */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.product-buttons button:hover {
+  background-color: #d34b0b; /* Darker on hover */
+}
+
+ .favorite-button {
+  position: absolute; 
+  top: -10px; 
+  right: 10px; 
+  background-color: transparent;
+  border: none;
+  font-size: 24px; /* İkonun boyutu */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+  background-color: rgba(255, 0, 0, 0.1); /* Hover efekti */
+}
+
+.favorite-button.active {
+  color: red; /* Aktifken renk değişir */
+}
+
+.badge {
+  position: absolute; /* Kartın köşesine konumlandırılır */
+  top: 10px;
+  left: 10px;
+  background-color: #28a745; /* Yeşil arka plan */
+  color: white; /* Beyaz yazı rengi */
+  font-size: 10px; /* Küçük yazı boyutu */
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.SepetButon:disabled {
+  background-color: #d3d3d3;
+  color: #999;
+}
+.product-sizes {
+  margin-top: 12px;
+}
+

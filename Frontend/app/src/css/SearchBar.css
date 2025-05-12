@@ -1,0 +1,33 @@
+/* searchBar.css */
+.search-container {
+    position: relative;
+    width: 600px;
+    margin-left: 180px;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px; 
+    height:40px;
+    overflow:visible;
+}
+
+.search-list {
+    position: absolute;
+    top: 120%;
+    width: 545px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    max-height: 300px;  /* Arama sonuçlarının taşmasını engellemek için */
+    overflow-y: auto;   /* Sonuçları kaydırılabilir yapmak için */
+}
+
+/* .search-spin {
+    margin-top: 0;
+} */
+
+

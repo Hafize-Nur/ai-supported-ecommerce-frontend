@@ -1,0 +1,40 @@
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;         
+  width: 200px;          
+  background-color: #46494e;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.sidebar-menu  {
+margin-top: 9px;
+  background-color: #46494e;
+  color: "#fff";
+  font-size: 16px;
+  font-weight: 400;
+  border-right: "none";
+  color: #fff; 
+  box-shadow: none ;
+  border: none ;
+}
+
+
+/* Sidebar içindeki submenu açıldığında çıkan popup'ın arka planı */
+.sidebar-menu .ant-menu-submenu .ant-menu {
+  background-color: #46494e !important;
+  color: #fff !important;
+}
+
+/* Alt menü item'larının yazı rengi */
+.sidebar-menu .ant-menu-submenu .ant-menu-item {
+  color: #fff !important;
+}
+
+/* Hover efekti */
+.sidebar-menu .ant-menu-submenu .ant-menu-item:hover {
+  background-color: #5a5d63 !important;
+}
+  

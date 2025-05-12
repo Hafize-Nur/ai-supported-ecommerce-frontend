@@ -1,0 +1,43 @@
+.product-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Allow scrolling if content exceeds viewport */
+  /* grid-template-rows: auto 1fr auto; Üst: header, Orta: içerik, Alt: footer */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+ 
+
+  }
+
+  .product-layout > Header {
+    grid-row: 1/2;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .product-layout > .content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 50px auto 0; /* Add top margin to prevent overlap with header */
+  }
+  
+  
+  .product-layout > Footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Ensure footer stays at the bottom */
+  }
+  .product-card {
+    max-width: 300px;
+    width: 100%;
+  }

@@ -1,0 +1,39 @@
+/* AddUserComponent.css */
+.user-add-container {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f2f5; /* Arkaplan rengi */
+  }
+  .user-table {
+    margin-top: 20px;
+    background-color: #fff; /* Tablo arkaplanı */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    border-radius: 8px;
+  }
+  /* Tablo satır genişletme kısmı için stil */
+  .ant-table-row-expand-icon-cell {
+    width: 40px;
+  }
+  
+  /* Tablo header stil */
+  .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: bold;
+  }
+  
+  /* Tablo içerisindeki verilerin düzeni */
+  .ant-table-cell {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* .ant-table {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .ant-table th,
+  .ant-table td {
+    text-align: center;
+  }
+   */

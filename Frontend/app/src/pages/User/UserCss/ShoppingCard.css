@@ -1,0 +1,62 @@
+/* Genel Layout için stil */
+.shopping-card-layout {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f2f5; /* Arkaplan rengi */
+  }
+  
+  /* Table bileşeni için stil */ 
+  .shopping-card-table {
+    margin-top: 50px;
+    background-color: #fff; /* Tablo arkaplanı */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    border-radius: 8px;
+  }
+  
+  /* Tablo satır genişletme kısmı için stil */
+  .ant-table-row-expand-icon-cell {
+    width: 40px;
+  }
+  
+  /* Tablo header stil */
+  .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: bold;
+  }
+  
+  /* Tablo içerisindeki verilerin düzeni */
+  .ant-table-cell {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Linkler için (örneğin Delete butonu) */
+  .ant-table-cell a {
+    color: #1890ff;
+    cursor: pointer;
+  }
+  
+  .ant-table-cell a:hover {
+    color: #40a9ff;
+  }
+  
+  /* Sayfa düzeni için küçük ekran optimizasyonu */
+  @media (max-width: 768px) {
+    .shopping-card-layout {
+      padding: 10px;
+    }
+  
+    .shopping-card-table {
+      margin-top: 10px;
+    }
+  }
+  
+  .SiparisButon{
+    width: 500px;
+    margin-left: 30%;
+  }
+
+  .image{
+    width: 80px;
+    height: 80px;
+  }

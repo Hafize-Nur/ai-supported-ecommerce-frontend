@@ -1,0 +1,23 @@
+.filter-container {
+    padding: 20px;
+  }
+  
+  .filter-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .filter-select {
+    width: 100%;
+  }
+  
+  .filter-slider {
+    width: 100%;
+  }
+  
+  .filter-checkbox-group {
+    display: flex;
+    flex-direction: column;
+  }
+  

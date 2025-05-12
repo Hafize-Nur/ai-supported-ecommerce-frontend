@@ -1,0 +1,37 @@
+.payment-layout {
+    background-color: #f0f2f5;
+  }
+  
+  .payment-content {
+    padding: 24px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment-page-container {
+    background: #fff;
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .payment-form .payment-section-title {
+    margin-top: 16px;
+    font-weight: bold;
+  }
+  
+  .total-amount {
+    font-size: 18px;
+    display: block;
+    margin-top: 16px;
+  }
+  
+  .payment-button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  

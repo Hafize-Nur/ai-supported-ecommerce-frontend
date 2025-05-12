@@ -1,0 +1,10 @@
+.login{ 
+ width: 450px;
+ margin: 200px auto ;
+}
+
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
