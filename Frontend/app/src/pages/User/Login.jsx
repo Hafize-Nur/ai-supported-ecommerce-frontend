@@ -105,7 +105,7 @@ const LoginForm = ({ setLoading }) => {
       >
         <Form.Item
           name="username"
-          rules={[{ required: true, message: "Lütfen emailinizi girin!" }]}
+          rules={[{ required: true, message: "Lütfen emailinizi girin!!!!!!!!" }]}
         >
           <Input
             prefix={<UserOutlined className="site-form-item-icon" />} // Kullanıcı adı ikonu
