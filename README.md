@@ -121,23 +121,27 @@ Frontend tarafında **React.js** frameworkü ve **Ant Design** bileşen kütüph
   <img src="images/IMG-20250530-WA0011.jpg" width="600" />
 </p>
 
-Chatbot sistemi, kullanıcıların ürün arama ve bilgi alma süreçlerini kolaylaştırmak amacıyla geliştirilmiştir.
+# 🤖 Chatbot Sistemi
 
---- 
+Chatbot sistemi, kullanıcıların ürün arama ve bilgi alma süreçlerini
+kolaylaştırmak amacıyla geliştirilmiştir.
+
+---
+
 ## 📂 Proje Yapısı (Özet)
 
+```text
 Frontend/
 └── app/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── services/
-│ └── routes/
-└── package.json
+    ├── src/
+    │   ├── components/
+    │   ├── pages/
+    │   ├── services/
+    │   └── routes/
+    └── package.json
 
 images/
 └── (arayüz ekran görüntüleri)
----
 ## ⚙️ Kurulum ve Çalıştırma
 
 ```bash
